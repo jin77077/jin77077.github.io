@@ -1,0 +1,550 @@
+@media (max-width: 991px){
+  .introduce img {
+    width: 25px;
+  }
+  .izsolution {
+    width: 100%;
+  }
+
+  #slider-div img{
+    width: 100%;
+  }
+
+  #slider-div2 img{
+    width: 100%;
+  }
+
+  .name {
+    display: none;
+  }
+  .skillTable th{
+    width: 100px;
+    vertical-align: top;
+    font-size: 20px;
+  }
+
+  .skillTable td{
+    font-size: 15px;
+  }
+
+  .skillTable li{
+    padding-bottom: 10px;
+  }
+
+  .addProject {
+    background: #3d689e;
+    margin-left: 53px;
+    width: 322px;
+    height: 49px;
+    border-radius: 9px;
+    text-align: center;
+    padding-top: 14px;
+    font-size: 12px;
+    color: white;
+  }
+
+  .portfolio-table img {
+    width : 100%;
+    margin-bottom: 30px;
+  }
+
+  .portfolio-detail img {
+    width : 100%;
+  }
+
+  /* PROGRESS BAR 설정 */
+  .progress {
+    height: 6px;
+    box-shadow: none;
+    background: #f2f3f7;
+    overflow: visible;
+    margin-bottom : 20px;
+    position : relative;
+  }
+
+  /* PROGRESS 제목 */
+   .progress-wrap h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  /* PROGRESS BAR 원 공통 */
+  .progress-bar:after {
+    width: 10px;
+    height: 10px;
+    content: '';
+    border-radius: 50%;
+  }
+
+  /* PROGRESS BAR 공통 */
+  .progress-bar {
+    border-radius: 5px;
+    overflow: visible;
+  }
+
+  /* PROGRESS 배경색 */
+  .progress-bar.color-1 {
+    background: #2c98f0;
+  }
+  .progress-bar.color-2 {
+    background: #ec5453;
+  }
+  .progress-bar.color-3 {
+    background: #f9bf3f;
+  }
+  .progress-bar.color-4 {
+    background: #4054b2;
+  }
+  .progress-bar.color-5 {
+    background: #2fa499;
+  }
+  .progress-bar.color-6 {
+    background: #a84cb8;
+  }
+  .progress-bar.color-7 {
+    background: #2c98f0;
+  }
+  .progress-bar.color-8 {
+    background: #e597e3;
+  }
+  .progress-bar.color-9 {
+    background: #ff8e8e;
+  }
+  .progress-bar.color-10 {
+    background: #ffc99a;
+  }
+  .progress-bar.color-11 {
+    background: #3873bd;
+  }
+
+
+  /* 퍼센트  설정 */
+  .progress-bar span {
+    position: relative;
+    font-weight: bold;
+  }
+
+  .progress-bar.color-1 span {
+    color: #2c98f0;
+    top: -17px;
+    right: -148px;
+  }
+  .progress-bar.color-2 span {
+    color: #ec5453;
+    top: -17px;
+    right: -125px;
+  }
+  .progress-bar.color-3 span {
+    color: #f9bf3f;
+    top: -17px;
+    right: -125px;
+  }
+  .progress-bar.color-4 span {
+    color: #4054b2;
+    top: -17px;
+    right: -125px;
+  }
+  .progress-bar.color-5 span {
+    color: #2fa499;
+    top: -17px;
+    right: -125px;
+  }
+  .progress-bar.color-6 span {
+    color: #a84cb8;
+    top: -17px;
+    right: -125px;
+  }
+  .progress-bar.color-7 span {
+    color: #2c98f0;
+    top: -17px;
+    right: -125px;
+  }
+  .progress-bar.color-8 span {
+    color: #e597e3;
+    top: -17px;
+    right: -125px;
+  }
+  .progress-bar.color-9 span {
+    color: #ff8e8e;
+    top: -17px;
+    right: -125px;
+  }
+  .progress-bar.color-10 span {
+    color: #ffc99a;
+    top: -17px;
+    right: -125px;
+  }
+
+  .progress-bar.color-11 span {
+    color: #3873bd;
+    top: -17px;
+    right: -125px;
+  }
+
+   /* PROGRESS 원 설정 */
+  .progress-bar.color-1:after {
+    background: #2c98f0;
+    position: absolute;
+    top: -2px;
+    right: 140px;
+  }
+  .progress-bar.color-2:after {
+    background: #ec5453;
+    position: absolute;
+    top: -2px;
+    right: 175px;
+  }
+  .progress-bar.color-3:after {
+    background: #f9bf3f;
+    position: absolute;
+    top: -2px;
+    right: 140px;
+  }
+  .progress-bar.color-4:after {
+    background: #4054b2;
+    position: absolute;
+    top: -2px;
+    right: 140px;
+  }
+  .progress-bar.color-5:after {
+    background: #2fa499;
+    position: absolute;
+    top: -2px;
+    right: 177px;
+  }
+  .progress-bar.color-6:after {
+    background: #a84cb8;
+    position: absolute;
+    top: -2px;
+    right: 248px;
+  }
+  .progress-bar.color-7:after {
+    background: #2c98f0;
+    position: absolute;
+    top: -2px;
+    right: 213px;
+  }
+  .progress-bar.color-8:after {
+    background: #e597e3;
+    position: absolute;
+    top: -2px;
+    right: 248px;
+  }
+  .progress-bar.color-9:after {
+    background: #ff8e8e;
+    position: absolute;
+    top: -2px;
+    right: 248px;
+  }
+  .progress-bar.color-10:after {
+    background:#ffc99a;
+    position: absolute;
+    top: -2px;
+    right: 178px;
+  }
+  .progress-bar.color-11:after {
+    background:#3873bd;
+    position: absolute;
+    top: -2px;
+    right: 140px;
+  }
+}
+
+
+@media (min-width: 992px) {
+
+  .introduce li {
+    padding: 10px 0;
+  }
+
+  .introduce img {
+    width: 25px;
+  }
+
+  .izsolution {
+    position: absolute;
+    top: 5009px;
+    left: 1173px;
+    width: 254px;
+  }
+
+  .skillTable th{
+    width: 150px;
+    vertical-align: top;
+    font-size: 25px;
+  }
+
+  .skillTable td{
+    font-size: 21px;
+  }
+
+  .skillTable li{
+    padding-bottom: 10px;
+  }
+
+  .certification-li {
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .name {
+    font-size:20px;
+    color: white;
+  }
+
+  .slick-arrow{
+    z-index: 2; /* prev버튼은 위치 이동시 이미지 뒤로 숨겨짐 */
+  }
+  .slick-prev.slick-arrow{ /* prev 이전 */
+	left: 15px;
+  }
+  .slick-next.slick-arrow{ /* next 다음 */
+    right: 15px;
+  }
+
+  .hide {
+    display: none !important;
+    transition: 0.5s;
+  }
+
+  #slider-div img {
+    width : 1020px;
+  }
+
+  #slider-div2 img {
+    width : 1020px;
+  }
+
+  .addProject {
+    background: #3d689e;
+    margin-left: 138px;
+    width: 1020px;
+    height: 49px;
+    border-radius: 9px;
+    text-align: center;
+    padding-top: 14px;
+    font-size: 16px;
+    color: white;
+  }
+  
+  .portfolio-table img {
+    width : 100%;
+    margin-bottom: 30px;
+  }
+
+  /* TECH SKILLS 영역 글자크기 설정 */
+  .techSkill-content {
+    font-size : 13px;
+  }
+
+  /* PROGRESS BAR 설정 */
+  .progress {
+    height: 6px;
+    box-shadow: none;
+    background: #f2f3f7;
+    overflow: visible;
+    margin-bottom : 20px;
+    position : relative;
+  }
+
+  /* PROGRESS 제목 */
+   .progress-wrap h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  /* PROGRESS BAR 원 공통 */
+  .progress-bar:after {
+    width: 10px;
+    height: 10px;
+    content: '';
+    border-radius: 50%;
+  }
+
+  /* PROGRESS BAR 공통 */
+  .progress-bar {
+    border-radius: 5px;
+    overflow: visible;
+  }
+
+  /* PROGRESS 배경색 */
+  .progress-bar.color-1 {
+    background: #2c98f0;
+  }
+  .progress-bar.color-2 {
+    background: #ec5453;
+  }
+  .progress-bar.color-3 {
+    background: #f9bf3f;
+  }
+  .progress-bar.color-4 {
+    background: #4054b2;
+  }
+  .progress-bar.color-5 {
+    background: #2fa499;
+  }
+  .progress-bar.color-6 {
+    background: #a84cb8;
+  }
+  .progress-bar.color-7 {
+    background: #2c98f0;
+  }
+  .progress-bar.color-8 {
+    background: #e597e3;
+  }
+  .progress-bar.color-9 {
+    background: #ff8e8e;
+  }
+  .progress-bar.color-10 {
+    background: #ffc99a;
+  }
+  .progress-bar.color-11 {
+    background: #3873bd;
+  }
+
+
+  /* 퍼센트  설정 */
+  .progress-bar span {
+    position: relative;
+    font-weight: bold;
+  }
+
+  .progress-bar.color-1 span {
+    color: #2c98f0;
+    top: -17px;
+    right: -148px;
+  }
+  .progress-bar.color-2 span {
+    color: #ec5453;
+    top: -17px;
+    right: -125px;
+  }
+  .progress-bar.color-3 span {
+    color: #f9bf3f;
+    top: -17px;
+    right: -125px;
+  }
+  .progress-bar.color-4 span {
+    color: #4054b2;
+    top: -17px;
+    right: -125px;
+  }
+  .progress-bar.color-5 span {
+    color: #2fa499;
+    top: -17px;
+    right: -125px;
+  }
+  .progress-bar.color-6 span {
+    color: #a84cb8;
+    top: -17px;
+    right: -125px;
+  }
+  .progress-bar.color-7 span {
+    color: #2c98f0;
+    top: -17px;
+    right: -125px;
+  }
+  .progress-bar.color-8 span {
+    color: #e597e3;
+    top: -17px;
+    right: -125px;
+  }
+  .progress-bar.color-9 span {
+    color: #ff8e8e;
+    top: -17px;
+    right: -125px;
+  }
+  .progress-bar.color-10 span {
+    color: #ffc99a;
+    top: -17px;
+    right: -125px;
+  }
+
+  .progress-bar.color-11 span {
+    color: #3873bd;
+    top: -17px;
+    right: -125px;
+  }
+
+   /* PROGRESS 원 설정 */
+  .progress-bar.color-1:after {
+    background: #2c98f0;
+    position: absolute;
+    top: -2px;
+    right: 199px;
+  }
+  .progress-bar.color-2:after {
+    background: #ec5453;
+    position: absolute;
+    top: -2px;
+    right: 247px;
+  }
+  .progress-bar.color-3:after {
+    background: #f9bf3f;
+    position: absolute;
+    top: -2px;
+    right: 199px;
+  }
+  .progress-bar.color-4:after {
+    background: #4054b2;
+    position: absolute;
+    top: -2px;
+    right: 199px;
+  }
+  .progress-bar.color-5:after {
+    background: #2fa499;
+    position: absolute;
+    top: -2px;
+    right: 248px;
+  }
+  .progress-bar.color-6:after {
+    background: #a84cb8;
+    position: absolute;
+    top: -2px;
+    right: 347px;
+  }
+  .progress-bar.color-7:after {
+    background: #2c98f0;
+    position: absolute;
+    top: -2px;
+    right: 295px;
+  }
+  .progress-bar.color-8:after {
+    background: #e597e3;
+    position: absolute;
+    top: -2px;
+    right: 347px;
+  }
+  .progress-bar.color-9:after {
+    background: #ff8e8e;
+    position: absolute;
+    top: -2px;
+    right: 347px;
+  }
+  .progress-bar.color-10:after {
+    background:#ffc99a;
+    position: absolute;
+    top: -2px;
+    right: 248px;
+  }
+  .progress-bar.color-11:after {
+    background:#3873bd;
+    position: absolute;
+    top: -2px;
+    right: 197px;
+  }
+}
+
+@media (min-width: 1921px) {
+	#slider-div img {
+    	margin : 0 auto;
+  	}
+
+    .izsolution {
+      position: absolute;
+      top: 5641px;
+      left: 1173px;
+      width: 254px;
+    }
+}
